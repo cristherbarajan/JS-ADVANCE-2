@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    color: #111;
+    background-color: white;
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+
+
+.form-container {
+    margin-bottom: 10px;
+}
+
+.form-row {
+    margin-bottom: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    font-size: 14px;
+}
+
+input {
+    width: 125px;
+    height: 20px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    padding: 2px 5px;
+}
+
+
+button {
+    font-size: 12px;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.main-buttons {
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+
+fieldset {
+    width: 590px;
+    min-height: 75px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+legend {
+    font-size: 14px;
+    padding: 0 3px;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin-left: 145px;
+    min-width: 300px;
+}
+
+th,
+td {
+    border: 1px solid #aaa;
+    padding: 4px 8px;
+    font-size: 13px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+td button {
+    margin-right: 3px;
+}
+
+
+.bottom-controls {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+select {
+    font-size: 12px;
+    height: 21px;
+}
+
+#saveBtn {
+    margin-left: 3px;
+}
